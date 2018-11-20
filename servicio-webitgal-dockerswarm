@@ -1,4 +1,4 @@
-## Creación de servicio.
+# Creación de servicio.
 docker service create \
 > --name webitgal \
 > --publish 80:80 \
@@ -9,8 +9,8 @@ docker service create \
 > --restart-condition on-failure \
 > adryanaws/webitgal
 
-## Actualización de tarea de réplicas en el servicio webitgal.
+# Actualización de tarea de réplicas en el servicio webitgal.
 docker service update --replicas=6 webitgal
 
-## Forzar actualizaciones del servicio webitgal en nuevos nodos, manteniendo las mismas tareas de réplica.
+# Forzar actualizaciones del servicio webitgal en nuevos nodos, manteniendo las mismas tareas de réplica.
 docker service update --force webitgal
