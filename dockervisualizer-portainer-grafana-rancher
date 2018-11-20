@@ -1,0 +1,22 @@
+# Crear y ejecutar contenedor de Docker Visualizer
+docker run -it -d -p 8000:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
+
+# Crear y ejecutar contenedor de Portainer
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+# Crear y ejecutar contenedor de Grafana
+docker run -d -p 3000:3000 grafana/grafana
+
+# Crear servicio de Grafana para la configuración de AWS en CloudWatch
+docker run \
+  -d \
+  -p 3000:3000 \
+  --name=grafana \
+  -e "GF_AWS_PROFILES=default" \
+  -e "GF_AWS_default_ACCESS_KEY_ID=YOUR_ACCESS_KEY" \
+  -e "GF_AWS_default_SECRET_ACCESS_KEY=YOUR_SECRET_KEY" \
+  -e "GF_AWS_default_REGION=us-east-1" \
+  grafana/grafana
+  
+  # Crear y ejecutar contenedor Rancher (No-HA)
+  # docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
