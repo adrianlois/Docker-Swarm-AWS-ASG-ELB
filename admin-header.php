@@ -1,5 +1,10 @@
-/* file_get_contents — Transmite un fichero completo a una cadena. 
-Obtención de los metadatos de instancias de AWS */
+/* 
+file_get_contents — Transmite un fichero completo a una cadena. 
+Obtención de los metadatos de instancias de AWS 
+
+/var/www/html/wp-content/themes/mi-theme/header.php
+/var/www/html/wp-admin/admin-header.php
+*/
 
 <div style="background-color:black;color:white;font-size:1.5em;text-align:center;padding:5px;width:100%">
 <?php echo file_get_contents("http://169.254.169.254/latest/meta-data/local-ipv4"); ?>
