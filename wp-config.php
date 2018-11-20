@@ -6,7 +6,7 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'wordpress');
 
 /** Contraseña de MySQL */
-define('DB_PASSWORD', 'abc123.');
+define('DB_PASSWORD', 'aGht4yx9U');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -18,6 +18,6 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Definir direcciones URLs **/
-define('WP_HOME','https://itgal.es');
-define('WP_SITEURL','https://itgal.es');
+define('WP_HOME','https://web.itgal.es');
+define('WP_SITEURL','https://web.itgal.es');
 ...
