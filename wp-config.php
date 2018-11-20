@@ -1,11 +1,11 @@
 ...
-/** El nombre de tu base de datos de WordPress */
+/** Nombre de la base de datos de WordPress */
 define('DB_NAME', 'wordpress');
 
-/** Tu nombre de usuario de MySQL */
+/** Nombre de usuario de MySQL */
 define('DB_USER', 'wordpress');
 
-/** Tu contraseña de MySQL */
+/** Contraseña de MySQL */
 define('DB_PASSWORD', 'abc123.');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
