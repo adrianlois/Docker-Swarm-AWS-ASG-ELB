@@ -10,7 +10,7 @@
 
 ### Objetivos
 
-Se trata de un proyecto orientado a la alta disponibilidad y evitando los overhead con un aprovechamiento optimo de los recursos usando contenedores con Docker, auto escalado y balanceador de carga en servicios de **Amazon Web Services**. Se trata de crear un servicio que se trata de una página web *(Wordpress, Apache2, MySQL y Supervisor)* a partir de un Dockerfile, generar una imagen y subirla a un repositorio público Docker Hub.
+Se trata de un proyecto orientado a la alta disponibilidad y evitando los overhead con un aprovechamiento optimo de los recursos usando contenedores con Docker, auto escalado y balanceador de carga en servicios de **Amazon Web Services**. Se trata de crear un servicio para servir una página web *(Wordpress, Apache2, MySQL y Supervisor)* a partir de un fichero construído Dockerfile generar una imagen y subirla a un Docker registry público que serán los repositorios de Docker Hub.
 
 Crear un cluster de nodos con **Docker Swarm** donde habrá un nodo manager y los nodos worker serán gestionados por el servicio de AWS **Auto Scaling Groups**, haciendo scale-out o scale-in según unas "Scaling Polices". Las nuevas instancias EC2 estarán levantadas con ASG se unirarán al Swarm y estarán distribuidas en las tres zonas de disponibilidad a, b y c de la región us-east-2 (Ohio). En el nodo manager se crea un servicio en base a la imagen subida a Docker Hub, se irá actualizando el servicio para crear nuevas tareas de réplicas y que estas se repartan con un paralelismo de uno en los nodos worker disponibles y gestionados por ASG permitiendo así una mayor disponibilidad y balanceo de los recursos de contenedores con Docker Swarm.
 
