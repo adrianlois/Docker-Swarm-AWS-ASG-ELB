@@ -22,7 +22,8 @@ Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se e
 
 **Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
 <p align="center">
-[![]()](https://www.youtube.com/watch?v=HzsBiJjgrOo)
+<a href="https://www.youtube.com/watch?v=HzsBiJjgrOo" target="_blank"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/9-portada-video-demo-youtube-dockerswarm-aws-asg-elb.png" 
+alt="portada-video-demo-youtube-dockerswarm-aws-asg-elb-adrianlois" width="690" /></a>
 </p>
 
 
