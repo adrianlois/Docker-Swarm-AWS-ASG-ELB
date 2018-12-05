@@ -19,8 +19,12 @@ Para unificar todo lo anterior y en una misma dirección pública de acceso a to
 
 Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se eliminarán del Swarm de nodos a través de un bash script añadido como tarea programada que se ejecutará cada diez minutos en el nodo manager *(eliminar-nodos-down.sh)* consiguiendo que se eliminen los nodos *Down* que ya no forman parte del Swarm.
 
+▶ **Documentación completa del proyecto**: https://github.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/blob/master/documentacion/Implementaci%C3%B3n%20Docker%20Swarm%20AWS%20ASG%20y%20ELB%20-%20adrianlois%20%5BDocumentaci%C3%B3n%5D.pdf
 
-**Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
+▶ **Presentación de Slides**: https://github.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/blob/master/documentacion/Implementaci%C3%B3n%20Docker%20Swarm%20AWS%20ASG%20y%20ELB%20-%20adrianlois%20%5BPresentaci%C3%B3n%5D.pdf
+
+
+▶ **Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
 <p align="center">
 <a href="https://www.youtube.com/watch?v=HzsBiJjgrOo" target="_blank"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/9-portada-video-demo-youtube-dockerswarm-aws-asg-elb.png" 
 alt="portada-video-demo-youtube-dockerswarm-aws-asg-elb-adrianlois" width="700" /></a>
