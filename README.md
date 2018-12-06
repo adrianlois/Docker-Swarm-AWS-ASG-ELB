@@ -41,7 +41,7 @@ alt="portada-video-demo-youtube-dockerswarm-aws-asg-elb-adrianlois" width="700" 
 </p>
 
 
-### Diagrama: Infraestructura - Docker Swarm, Auto Scaling Groups y Elastic Load Balancing
+### Diagrama de la Infraestructura de AWS, Docker Swarm, Auto Scaling Groups y Elastic Load Balancing
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/3-diagrama-infraestructura-dockerswarm-aws-asg-elb.png" />
 </p>
 
