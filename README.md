@@ -22,11 +22,11 @@ Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se e
 
 ## Documentación
 
-▶ **Documentación completa del proyecto**: https://github.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/blob/master/documentacion/Implementaci%C3%B3n%20Docker%20Swarm%20AWS%20ASG%20y%20ELB%20-%20%5BDocumentaci%C3%B3n%5D%20-%20adrianlois.pdf
+▶ **Documentación completa del proyecto**: https://goo.gl/xqZW2g
 
-▶ **Presentación de Slides**: https://github.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/blob/master/documentacion/Implementaci%C3%B3n%20Docker%20Swarm%20AWS%20ASG%20y%20ELB%20-%20%5BPresentaci%C3%B3n%5D%20-%20adrianlois.pdf
+▶ **Presentación de Slides**: https://goo.gl/dT1sTi
 
-▶ **Guía Referencia - Comandos Docker**: https://github.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/blob/master/documentacion/Comandos%20Docker%20-%20%5BGu%C3%ADa%20Referencia%5D%20-%20adrianlois.pdf
+▶ **Guía Referencia - Comandos Docker**: https://goo.gl/cP1UQZ
 
 ▶ **Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
 <p align="center">
