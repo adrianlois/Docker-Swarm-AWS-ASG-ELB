@@ -22,7 +22,7 @@ Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se e
 
 ## Documentación
 
-▶ **Descarga directa zip de la documentación completa del proyecto**: https://goo.gl/3sPxQo
+▶ **Descarga directa zip de la documentación completa del proyecto**: https://goo.gl/HAXHKm
 
 ▶ **Documentación completa del proyecto**: https://goo.gl/xqZW2g
 
