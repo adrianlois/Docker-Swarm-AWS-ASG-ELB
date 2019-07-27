@@ -28,7 +28,7 @@ Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se e
 
 ▶ **Presentación de Slides**: https://goo.gl/dT1sTi
 
-▶ **Docker Cheat Sheet - Guía Referencia de Comandos Docker**: https://bit.ly/2GxanYe
+▶ **Docker Cheat Sheet - Guía Referencia de Comandos Docker**: https://bit.ly/2MldpCO
 
 ▶ **Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
 <p align="center">
