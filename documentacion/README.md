@@ -1,7 +1,10 @@
 ## Documentación
 
-- *Comandos Docker - [Guía Referencia] - adrianlois.pdf*: Guía referencia de comandos Docker.
+Guía referencia de comandos Docker
+- Comandos Docker - [Guía Referencia] - adrianlois.pdf
 
-- *Implementación Docker Swarm AWS ASG y ELB - [Slides] - adrianlois.pdf*: Presentación de slides.
+Presentación de slides
+- Implementación Docker Swarm AWS ASG y ELB - [Slides] - adrianlois.pdf
 
-- *Implementación Docker Swarm AWS ASG y ELB - adrianlois.pdf*: Documentación completa.
+Documentación completa
+- Implementación Docker Swarm AWS ASG y ELB - adrianlois.pdf
