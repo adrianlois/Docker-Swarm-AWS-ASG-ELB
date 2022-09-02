@@ -1,7 +1,7 @@
 ## Documentación
 
 Guía referencia de comandos Docker
-- Comandos Docker - [Guía Referencia].pdf
+- Docker Cheat Sheet - [Guía Referencia].pdf
 
 Presentación de slides
 - Implementación Docker Swarm AWS ASG y ELB - [Slides].pdf
