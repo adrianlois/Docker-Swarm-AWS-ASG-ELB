@@ -1,9 +1,7 @@
 # Docker-Swarm-AWS-ASG-ELB
 
-
 ## Implementación de Docker Swarm en Amazon Web Services usando Auto Scaling Groups y Elastic Load Balancing
 <br />
-
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/1-portada-implementacion-dockerswarm-aws-asg-elb.png" />
@@ -22,17 +20,13 @@ Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se e
 
 ## Documentación
 
-▶ **Descarga directa zip de la documentación completa del proyecto**: https://bit.ly/2ZqgRlQ
+▶ **Documentación proyecto**: https://bit.ly/3ENHiWt
 
-▶ **Documentación del proyecto**: https://bit.ly/3bUOj6K
+▶ **Presentación Slides**: https://bit.ly/3IJ4039
 
-▶ **Documentación del proyecto en Google Docs**: https://bit.ly/3EOpXKU
+▶ **Docker Cheat Sheet Docker**: https://bit.ly/3J5376A
 
-▶ **Presentación de Slides**: https://bit.ly/2WSgZc7
-
-▶ **Docker Cheat Sheet - Guía Referencia de Comandos Docker**: https://bit.ly/2MldpCO
-
-▶ **Video demo (PoC)**: https://www.youtube.com/watch?v=HzsBiJjgrOo
+▶ **Video demo (PoC)**: https://youtu.be/HzsBiJjgrOo
 <p align="center">
 <a href="https://www.youtube.com/watch?v=HzsBiJjgrOo" target="_blank"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/9-portada-videodemo-youtube-dockerswarm-aws-asg-elb.png" 
 alt="portada-video-demo-youtube-dockerswarm-aws-asg-elb-adrianlois" width="700" /></a>
@@ -44,31 +38,25 @@ alt="portada-video-demo-youtube-dockerswarm-aws-asg-elb-adrianlois" width="700" 
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/2-diagrama-dockerfile-dockerhub.png"  width="680" />
 </p>
 
-
 ### Diagrama de la Infraestructura de AWS, Docker Swarm, Auto Scaling Groups y Elastic Load Balancing
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/3-diagrama-infraestructura-dockerswarm-aws-asg-elb.png" />
 </p>
-
 
 ### Crear servicio con tareas de réplicas
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/4-dockerswarm-asg-elb-servicio-itgal-replicas.png" />
 </p>
 
-
 ### ELB: Balanceo de carga entre instancias y DNS Name
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/5-elb-balanceo-instancias-asg-manager-dns-cname.png" />
 </p>
-
 
 ### Balanceo de carga entre instancias y contenedores
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/6-webitgal-balanceo-swarm-elb.png" />
 </p>
 
-
 ### ASG: Scale-in a cero de forma manual
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/7-scalein0-asg.png" />
 </p>
-
 
 ### Eliminación de nodos "Down" del Swarm mediante bash scripting
 <p align="center"><img src="https://raw.githubusercontent.com/adrianlois/Docker-Swarm-AWS-ASG-ELB/master/screenshots/8-eliminar-nodos-down-script.png" />
