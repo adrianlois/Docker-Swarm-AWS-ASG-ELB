@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="screenshots/1-portada-implementacion-docker-swarm-aws-asg-elb.png" alt="Docker-Swarm-AWS-ASG-ELB" width="500">
+  <img src="screenshots/1-portada-implementacion-docker-swarm-aws-asg-elb.png" alt="Docker-Swarm-AWS-ASG-ELB" width="520">
   <br>
   Implementación de Docker Swarm en Amazon Web Services usando Auto Scaling Groups y Elastic Load Balancing
 </h1>
