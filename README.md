@@ -4,7 +4,7 @@
   <img src="screenshots/1-portada-implementacion-dockerswarm-aws-asg-elb.png" alt="Docker-Swarm-AWS-ASG-ELB" width="600">
 </h1>
 
-## Objetivos
+## Descripción
 
 Se trata de un proyecto orientado a la alta disponibilidad y evitando los overhead con un óptimo aprovechamiento de los recursos usando contenedores Docker, auto escalado y balanceador de carga usando los servicios de **Amazon Web Services**. Se trata de crear un servicio para servir una página web *(Wordpress, Apache2, MySQL y Supervisor)* a partir de un fichero construído Dockerfile generar una imagen y subirla a un Docker registry público que serán los repositorios de Docker Hub.
 
@@ -13,7 +13,6 @@ Crear un cluster de nodos con **Docker Swarm** donde habrá un nodo manager y lo
 Para unificar todo lo anterior y en una misma dirección pública de acceso a todas las instancias, se crea un **Elastic Load Balancer** que hará balanceo entre las instancias gestionadas por ASG y el nodo manager. ELB crea un DNS Name, se creará un registro CNAME en la gestión del dominio para que el subdominio *"web.itgal.es"* apunte al DNS Name del ELB.
 
 Cuando se haga un scale-in de instancias con ASG los nodos en estado "Down" se eliminarán del Swarm de nodos a través de un bash script añadido como tarea programada que se ejecutará cada diez minutos en el nodo manager *(eliminar-nodos-down.sh)* consiguiendo que se eliminen los nodos *Down* que ya no forman parte del Swarm.
-
 
 ## Documentación
 
