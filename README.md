@@ -1,8 +1,8 @@
 <h1 align="center">Implementación de Docker Swarm en Amazon Web Services usando Auto Scaling Groups y Elastic Load Balancing</h1>
 
-<h1 align="center">
+<div align="center">
   <img src="screenshots/1-portada-implementacion-dockerswarm-aws-asg-elb.png" alt="Docker-Swarm-AWS-ASG-ELB" width="600">
-</h1>
+</div>
 
 ## Descripción
 
